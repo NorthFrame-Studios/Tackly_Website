@@ -8,7 +8,7 @@ export const siteConfig = {
   name: 'Equilo',
   tagline: 'Rideudstyr fortjener flere ture',
   description:
-    'Den danske markedsplads for ryttere. Køb og sælg rideudstyr nemt, trygt og med god samvittighed.',
+    'Den nordiske markedsplads for ryttere. Køb og sælg rideudstyr nemt, trygt og med god samvittighed.',
 
   links: {
     appStore: '#download', // Replace with the final App Store URL
