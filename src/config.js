@@ -15,14 +15,20 @@ export const siteConfig = {
     googlePlay: '#download', // Replace with the final Google Play URL
     instagram: '#', // Replace with the Equilo Instagram URL
     facebook: '#', // Replace with the Equilo Facebook URL
-    privacy: '#', // Replace with the privacy policy URL
-    terms: '#', // Replace with the terms URL
+    privacy: '/privacy/',
+    terms: '/terms/',
+    deleteAccount: '/delete-account/',
   },
 
   contact: {
     email: 'hej@equilo.dk',
-    companyName: 'Equilo',
-    cvr: '', // Add CVR number when available
+    supportEmail: 'support@equilo.dk',
+    privacyEmail: 'support@equilo.dk',
+    dsaEmail: 'support@equilo.dk',
+    companyName: 'NorthFrame',
+    address: 'Cikoriegade 52, 2. tv., 2640 Hedehusene, Danmark',
+    cvr: '', // Required if the operator is registered in CVR
+    phone: '', // Add if this is the normal direct contact channel
   },
 
   colors: {

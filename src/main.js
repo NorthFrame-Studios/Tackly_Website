@@ -1,3 +1,11 @@
+import '@fontsource/dm-sans/latin-400.css'
+import '@fontsource/dm-sans/latin-500.css'
+import '@fontsource/dm-sans/latin-600.css'
+import '@fontsource/dm-sans/latin-700.css'
+import '@fontsource/manrope/latin-500.css'
+import '@fontsource/manrope/latin-600.css'
+import '@fontsource/manrope/latin-700.css'
+import '@fontsource/manrope/latin-800.css'
 import './style.css'
 import brandIcon from './assets/android-icon-equilo.png'
 import { siteConfig } from './config.js'
@@ -279,7 +287,7 @@ document.querySelector('#app').innerHTML = `
         <p>${tagline}.<br />Lavet med kærlighed til hestelivet.</p>
       </div>
       <div class="footer-links"><strong>Equilo</strong><a href="#saadan-virker-det">Sådan virker det</a><a href="#fordele">Fordele</a><a href="#download">Hent appen</a></div>
-      <div class="footer-links"><strong>Hjælp</strong><a href="#faq">FAQ</a><a href="mailto:${contact.email}">Kontakt os</a><a href="${links.privacy}">Privatlivspolitik</a><a href="${links.terms}">Vilkår</a></div>
+      <div class="footer-links"><strong>Hjælp</strong><a href="#faq">FAQ</a><a href="mailto:${contact.email}">Kontakt os</a><a href="${links.privacy}">Privatlivspolitik</a><a href="${links.terms}">Vilkår</a><a href="${links.deleteAccount}">Slet konto</a><a href="mailto:${contact.dsaEmail}?subject=Anmeldelse%20af%20ulovligt%20indhold%20p%C3%A5%20Equilo">Anmeld ulovligt indhold</a></div>
       <div class="footer-social"><strong>Følg med</strong><div><a href="${links.instagram}" aria-label="Instagram">${icon('instagram')}</a><a href="${links.facebook}" aria-label="Facebook">${icon('facebook')}</a></div></div>
     </div>
     <div class="container footer-bottom"><span>© ${new Date().getFullYear()} ${contact.companyName}. Alle rettigheder forbeholdes.${contact.cvr ? ` CVR: ${contact.cvr}` : ''}</span><span>Skabt til livet med heste <b>♡</b></span></div>
