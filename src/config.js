@@ -21,10 +21,10 @@ export const siteConfig = {
   },
 
   contact: {
-    email: 'hej@equilo.dk',
-    supportEmail: 'support@equilo.dk',
-    privacyEmail: 'support@equilo.dk',
-    dsaEmail: 'support@equilo.dk',
+    email: 'hej@tackly.dk',
+    supportEmail: 'support@tackly.dk',
+    privacyEmail: 'support@tackly.dk',
+    dsaEmail: 'support@tackly.dk',
     companyName: 'NorthFrame',
     address: 'Cikoriegade 52, 2. tv., 2640 Hedehusene, Danmark',
     cvr: '', // Required if the operator is registered in CVR
