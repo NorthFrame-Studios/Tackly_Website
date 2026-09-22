@@ -26,7 +26,7 @@ export const siteConfig = {
     privacyEmail: 'support@tackly.dk',
     dsaEmail: 'support@tackly.dk',
     companyName: 'NorthFrame',
-    address: 'Cikoriegade 52, 2. tv., 2640 Hedehusene, Danmark',
+    address: '2640 Hedehusene, Danmark',
     cvr: '', // Required if the operator is registered in CVR
     phone: '', // Add if this is the normal direct contact channel
   },
