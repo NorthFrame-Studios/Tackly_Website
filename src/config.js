@@ -1,11 +1,11 @@
 /**
- * Equilo website configuration
+ * Tackly website configuration
  *
  * Update links and company details here when they are ready. The rest of the
  * website reads from this file, so you do not need to search through the UI.
  */
 export const siteConfig = {
-  name: 'Equilo',
+  name: 'Tackly',
   tagline: 'Rideudstyr fortjener flere ture',
   description:
     'Den danske markedsplads for ryttere. Køb og sælg rideudstyr nemt, trygt og med god samvittighed.',
@@ -13,8 +13,8 @@ export const siteConfig = {
   links: {
     appStore: '#download', // Replace with the final App Store URL
     googlePlay: '#download', // Replace with the final Google Play URL
-    instagram: '#', // Replace with the Equilo Instagram URL
-    facebook: '#', // Replace with the Equilo Facebook URL
+    instagram: '#', // Replace with the Tackly Instagram URL
+    facebook: '#', // Replace with the Tackly Facebook URL
     privacy: '/privacy/',
     terms: '/terms/',
     deleteAccount: '/delete-account/',

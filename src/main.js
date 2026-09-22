@@ -54,7 +54,7 @@ const playLogo = `
 const storeButton = (store) => {
   const isApple = store === 'apple'
   return `
-    <a class="store-button" href="${isApple ? links.appStore : links.googlePlay}" aria-label="Hent Equilo på ${isApple ? 'App Store' : 'Google Play'}">
+    <a class="store-button" href="${isApple ? links.appStore : links.googlePlay}" aria-label="Hent Tackly på ${isApple ? 'App Store' : 'Google Play'}">
       ${isApple ? appleLogo : playLogo}
       <span><small>${isApple ? 'Hent i' : 'Hent den på'}</small><strong>${isApple ? 'App Store' : 'Google Play'}</strong></span>
     </a>`
@@ -93,7 +93,7 @@ document.querySelector('#app').innerHTML = `
           <h1>Giv dit rideudstyr <em>nye eventyr.</em></h1>
           <p>${description}</p>
           <div class="hero-actions">
-            <a class="button" href="#download">Hent Equilo ${icon('arrow')}</a>
+            <a class="button" href="#download">Hent Tackly ${icon('arrow')}</a>
             <a class="text-link" href="#saadan-virker-det">Se hvordan det virker <span>↓</span></a>
           </div>
           <div class="hero-proof">
@@ -107,7 +107,7 @@ document.querySelector('#app').innerHTML = `
         <div class="phone-stage reveal reveal-delay">
           <div class="orbit orbit-one"><span>${icon('heart')}</span></div>
           <div class="orbit orbit-two"><span>${icon('shield')}</span></div>
-          <div class="phone" aria-label="Eksempel på Equilo appen">
+          <div class="phone" aria-label="Eksempel på Tackly appen">
             <div class="phone-top"><span>9:41</span><i></i><span class="status">● ◒</span></div>
             <div class="app-head">
               <div class="app-brand"><img src="${brandIcon}" alt="" /><strong>${name}</strong></div>
@@ -149,7 +149,7 @@ document.querySelector('#app').innerHTML = `
         <div class="section-heading centered reveal">
           <span class="kicker">Nemt fra start til stald</span>
           <h2>En god handel på <em>tre skridt</em></h2>
-          <p>Equilo samler hele processen, så du kan bruge mindre tid på besvær og mere tid i sadlen.</p>
+          <p>Tackly samler hele processen, så du kan bruge mindre tid på besvær og mere tid i sadlen.</p>
         </div>
         <div class="steps-grid">
           <article class="step-card reveal">
@@ -246,7 +246,7 @@ document.querySelector('#app').innerHTML = `
         </div>
         <div class="faq-list reveal reveal-delay-short">
           <details open>
-            <summary>Hvad kan jeg sælge på Equilo?<span></span></summary>
+            <summary>Hvad kan jeg sælge på Tackly?<span></span></summary>
             <p>Alt det udstyr, der hører hestelivet til: udstyr til hest og rytter, beklædning, staldudstyr og meget mere. Det skal selvfølgelig være lovligt, ægte og beskrevet ærligt.</p>
           </details>
           <details>
@@ -255,11 +255,11 @@ document.querySelector('#app').innerHTML = `
           </details>
           <details>
             <summary>Hvordan kontakter jeg en sælger?<span></span></summary>
-            <p>Du skriver direkte til sælgeren gennem Equilos beskedfunktion. Her kan I dele detaljer og aftale, hvordan handlen skal foregå.</p>
+            <p>Du skriver direkte til sælgeren gennem Tacklys beskedfunktion. Her kan I dele detaljer og aftale, hvordan handlen skal foregå.</p>
           </details>
           <details>
-            <summary>Er Equilo kun for erfarne ryttere?<span></span></summary>
-            <p>Slet ikke. Equilo er for alle med interesse for heste – fra den helt nye ponyfamilie til den rutinerede konkurrencerytter.</p>
+            <summary>Er Tackly kun for erfarne ryttere?<span></span></summary>
+            <p>Slet ikke. Tackly er for alle med interesse for heste – fra den helt nye ponyfamilie til den rutinerede konkurrencerytter.</p>
           </details>
         </div>
       </div>
@@ -270,10 +270,10 @@ document.querySelector('#app').innerHTML = `
         <div class="download-card reveal">
           <div class="download-decor decor-left">♞</div>
           <div class="download-decor decor-right">♡</div>
-          <img src="${brandIcon}" alt="Equilo app-ikon" />
+          <img src="${brandIcon}" alt="Tackly app-ikon" />
           <span class="kicker light">Klar til næste handel?</span>
           <h2>${tagline}</h2>
-          <p>Download Equilo, og bliv en del af Danmarks nye markedsplads for ryttere.</p>
+          <p>Download Tackly, og bliv en del af Danmarks nye markedsplads for ryttere.</p>
           <div class="store-buttons">${storeButton('apple')}${storeButton('play')}</div>
         </div>
       </div>
@@ -286,8 +286,8 @@ document.querySelector('#app').innerHTML = `
         <a class="brand" href="#top"><span class="brand-mark"><img src="${brandIcon}" alt="" /></span><span>${name}</span></a>
         <p>${tagline}.<br />Lavet med kærlighed til hestelivet.</p>
       </div>
-      <div class="footer-links"><strong>Equilo</strong><a href="#saadan-virker-det">Sådan virker det</a><a href="#fordele">Fordele</a><a href="#download">Hent appen</a></div>
-      <div class="footer-links"><strong>Hjælp</strong><a href="#faq">FAQ</a><a href="mailto:${contact.email}">Kontakt os</a><a href="${links.privacy}">Privatlivspolitik</a><a href="${links.terms}">Vilkår</a><a href="${links.deleteAccount}">Slet konto</a><a href="mailto:${contact.dsaEmail}?subject=Anmeldelse%20af%20ulovligt%20indhold%20p%C3%A5%20Equilo">Anmeld ulovligt indhold</a></div>
+      <div class="footer-links"><strong>Tackly</strong><a href="#saadan-virker-det">Sådan virker det</a><a href="#fordele">Fordele</a><a href="#download">Hent appen</a></div>
+      <div class="footer-links"><strong>Hjælp</strong><a href="#faq">FAQ</a><a href="mailto:${contact.email}">Kontakt os</a><a href="${links.privacy}">Privatlivspolitik</a><a href="${links.terms}">Vilkår</a><a href="${links.deleteAccount}">Slet konto</a><a href="mailto:${contact.dsaEmail}?subject=Anmeldelse%20af%20ulovligt%20indhold%20p%C3%A5%20Tackly">Anmeld ulovligt indhold</a></div>
       <div class="footer-social"><strong>Følg med</strong><div><a href="${links.instagram}" aria-label="Instagram">${icon('instagram')}</a><a href="${links.facebook}" aria-label="Facebook">${icon('facebook')}</a></div></div>
     </div>
     <div class="container footer-bottom"><span>© ${new Date().getFullYear()} ${contact.companyName}. Alle rettigheder forbeholdes.${contact.cvr ? ` CVR: ${contact.cvr}` : ''}</span><span>Skabt til livet med heste <b>♡</b></span></div>
@@ -331,7 +331,7 @@ const observer = new IntersectionObserver(
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element))
 
 // The page content is rendered by JavaScript, so handle direct links to a
-// section after the markup exists (for example equilo.dk/#download).
+// section after the markup exists (for example tackly.dk/#download).
 if (window.location.hash) {
   requestAnimationFrame(() => {
     document.querySelector(window.location.hash)?.scrollIntoView()

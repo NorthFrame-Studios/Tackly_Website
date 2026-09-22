@@ -23,20 +23,20 @@ const pages = {
   privacy: {
     eyebrow: 'Jura og privatliv',
     title: 'Privatlivspolitik',
-    intro: 'Her kan du se, hvilke personoplysninger Equilo behandler, hvorfor vi gør det, hvem oplysningerne deles med, og hvilke rettigheder du har.',
+    intro: 'Her kan du se, hvilke personoplysninger Tackly behandler, hvorfor vi gør det, hvem oplysningerne deles med, og hvilke rettigheder du har.',
     sections: [
       {
         id: 'ansvarlig',
         title: '1. Hvem er ansvarlig?',
-        body: `<p>Denne politik gælder for Equilo-appen, equilo.dk og support. ${contact.companyName}, som driver tjenesten under navnet Equilo, er dataansvarlig for behandlingen.</p>${operatorDetails}`,
+        body: `<p>Denne politik gælder for Tackly-appen, tackly.dk og support. ${contact.companyName}, som driver tjenesten under navnet Tackly, er dataansvarlig for behandlingen.</p>${operatorDetails}`,
       },
       {
         id: 'oplysninger',
         title: '2. Oplysninger vi behandler',
         body: `
-          <p>Afhængigt af hvordan du bruger Equilo, behandler vi følgende kategorier:</p>
+          <p>Afhængigt af hvordan du bruger Tackly, behandler vi følgende kategorier:</p>
           <ul>
-            <li><strong>Konto og login:</strong> e-mailadresse, bruger-id og loginoplysninger, som håndteres sikkert af Supabase. Equilo kan ikke se din adgangskode i klartekst. Hvis du vælger Google-login, modtager vi navn, e-mail, profilbillede og de identifikatorer Google stiller til rådighed.</li>
+            <li><strong>Konto og login:</strong> e-mailadresse, bruger-id og loginoplysninger, som håndteres sikkert af Supabase. Tackly kan ikke se din adgangskode i klartekst. Hvis du vælger Google-login, modtager vi navn, e-mail, profilbillede og de identifikatorer Google stiller til rådighed.</li>
             <li><strong>Profil:</strong> vist navn, profilbillede, profiltekst og valgfrit postområde/by.</li>
             <li><strong>Annoncer:</strong> billeder, titel, beskrivelse, kategori, produktoplysninger, stand, pris, postområde/by og annoncestatus.</li>
             <li><strong>Brug af markedspladsen:</strong> favoritter, samtaler, beskeder, bud, købsanmodninger, reservationer, markering som solgt, anmeldelser og blokeringer.</li>
@@ -45,7 +45,7 @@ const pages = {
           </ul>
           <p>Vi modtager normalt oplysningerne fra dig. Loginoplysninger kan også komme fra Google, hvis du vælger Google-login. Oplysninger om rapporteret indhold kan komme fra en anden bruger.</p>
           <p>Appen bruger ikke din enheds præcise GPS-position. Afstandsfiltret bruger det postområde, du selv skriver eller vælger. Du vælger også selv, hvilke billeder appen får adgang til og uploader.</p>
-          <p>Equilo er ikke beregnet til følsomme personoplysninger. Del ikke helbredsoplysninger, CPR-numre, betalingskortoplysninger eller andre fortrolige oplysninger i profiler, annoncer, support eller beskeder.</p>`,
+          <p>Tackly er ikke beregnet til følsomme personoplysninger. Del ikke helbredsoplysninger, CPR-numre, betalingskortoplysninger eller andre fortrolige oplysninger i profiler, annoncer, support eller beskeder.</p>`,
       },
       {
         id: 'offentligt',
@@ -68,7 +68,7 @@ const pages = {
             </tbody>
           </table></div>
           <p>De oplysninger, der er markeret som nødvendige ved oprettelse eller brug af en funktion, skal bruges for at levere funktionen. Hvis du ikke giver dem, kan vi ikke oprette kontoen eller gennemføre den valgte handling.</p>
-          <p>Vi træffer ikke afgørelser med retsvirkning eller tilsvarende væsentlig virkning om dig alene ved automatisk behandling. Annoncer vises som udgangspunkt med de nyeste først; du kan selv vælge prissortering og filtre. Equilo tilbyder aktuelt ikke betalt placering.</p>`,
+          <p>Vi træffer ikke afgørelser med retsvirkning eller tilsvarende væsentlig virkning om dig alene ved automatisk behandling. Annoncer vises som udgangspunkt med de nyeste først; du kan selv vælge prissortering og filtre. Tackly tilbyder aktuelt ikke betalt placering.</p>`,
       },
       {
         id: 'modtagere',
@@ -78,13 +78,13 @@ const pages = {
           <ul>
             <li><strong>Andre brugere og offentligheden</strong> modtager det profil- og annonceindhold, du vælger at offentliggøre. En samtalepart modtager dine beskeder, bud og handelsoplysninger.</li>
             <li><strong>Supabase</strong> leverer login, database, fillagring og backendfunktioner.</li>
-            <li><strong>Vercel</strong> hoster equilo.dk og kan behandle IP-adresse, tidspunkt, den besøgte adresse og nødvendige tekniske logs for at levere og beskytte hjemmesiden.</li>
+            <li><strong>Vercel</strong> hoster tackly.dk og kan behandle IP-adresse, tidspunkt, den besøgte adresse og nødvendige tekniske logs for at levere og beskytte hjemmesiden.</li>
             <li><strong>Expo og Google Firebase Cloud Messaging</strong> formidler pushnotifikationer til din enhed. Notifikationstekster er begrænsede, så følsomt beskedindhold ikke vises gennem pushleverandøren.</li>
             <li><strong>Google</strong> behandler oplysninger, hvis du selv vælger Google-login.</li>
             <li><strong>Dataforsyningen (DAWA)</strong> modtager søgetekst og tekniske forbindelsesoplysninger, når appen slår danske postområder op. Vi sender ikke din konto-id med forespørgslen.</li>
             <li><strong>Rådgivere og myndigheder</strong> kan modtage oplysninger, når det er nødvendigt for et retskrav eller følger af loven.</li>
           </ul>
-          <p>Autoriserede Equilo-administratorer og moderatorer har kun adgang i det omfang, deres opgaver kræver det. Vi sælger ikke dine personoplysninger og bruger dem ikke til tredjepartsannoncering.</p>`,
+          <p>Autoriserede Tackly-administratorer og moderatorer har kun adgang i det omfang, deres opgaver kræver det. Vi sælger ikke dine personoplysninger og bruger dem ikke til tredjepartsannoncering.</p>`,
       },
       {
         id: 'overfoersler',
@@ -121,7 +121,7 @@ const pages = {
         title: '9. Sikkerhed, hjemmeside og ændringer',
         body: `
           <p>Vi anvender adgangskontrol, krypteret transport, rollebaseret administratoradgang og andre tekniske og organisatoriske foranstaltninger. Ingen internetbaseret tjeneste kan garantere fuldstændig sikkerhed.</p>
-          <p>equilo.dk anvender aktuelt ikke analyse-, reklame- eller trackingcookies. Tekniske driftslogs kan blive dannet af hostingudbyderen af hensyn til sikkerhed og stabilitet.</p>
+          <p>tackly.dk anvender aktuelt ikke analyse-, reklame- eller trackingcookies. Tekniske driftslogs kan blive dannet af hostingudbyderen af hensyn til sikkerhed og stabilitet.</p>
           <p>Vi opdaterer politikken, når tjenesten eller behandlingen ændrer sig. Ved væsentlige ændringer giver vi besked i appen eller på anden passende måde og opdaterer datoen øverst.</p>`,
       },
     ],
@@ -129,27 +129,27 @@ const pages = {
   terms: {
     eyebrow: 'Vilkår for markedspladsen',
     title: 'Brugsvilkår',
-    intro: 'Vilkårene gælder, når du opretter en konto eller bruger Equilo. Equilo er en markedsplads for private handler med rideudstyr.',
+    intro: 'Vilkårene gælder, når du opretter en konto eller bruger Tackly. Tackly er en markedsplads for private handler med rideudstyr.',
     sections: [
       {
         id: 'operatoer',
-        title: '1. Equilo og din aftale med os',
-        body: `<p>Disse vilkår er aftalen mellem dig og ${contact.companyName}, som driver tjenesten under navnet Equilo, om adgang til Equilo-appen og de tilhørende tjenester.</p>${operatorDetails}<p>Du accepterer den version, der vises i appen. Privatlivspolitikken beskriver behandlingen af personoplysninger og er ikke en del af selve aftalevilkårene.</p>`,
+        title: '1. Tackly og din aftale med os',
+        body: `<p>Disse vilkår er aftalen mellem dig og ${contact.companyName}, som driver tjenesten under navnet Tackly, om adgang til Tackly-appen og de tilhørende tjenester.</p>${operatorDetails}<p>Du accepterer den version, der vises i appen. Privatlivspolitikken beskriver behandlingen af personoplysninger og er ikke en del af selve aftalevilkårene.</p>`,
       },
       {
         id: 'markedsplads',
-        title: '2. Equilos rolle',
+        title: '2. Tacklys rolle',
         body: `
-          <p>Equilo er en kontakt- og annonceplatform for private brugere. Equilo er ikke en webshop, sælger, køber, forhandler, handelsagent eller formidler af betaling og har ingen egne varer til salg. En vare tilbydes alene af den private bruger, der har oprettet annoncen. Equilo ejer, kontrollerer eller undersøger normalt ikke varen og håndterer ikke betaling, fragt, udlevering, forsikring eller ejerskifte.</p>
-          <p>De strukturerede funktioner i appen—herunder bud, købsanmodninger, accept, afvisning, reservation og markering som solgt—er alene ikke-bindende værktøjer til at skabe kontakt og koordinere. De udløser ikke betaling eller en bindende handel gennem Equilo. En accept ændrer kun annoncens status til reserveret. Både køber og sælger kan springe fra og ophæve reservationen uden betaling eller krav fra Equilo.</p>
-          <p>Hvis parterne ønsker at indgå en endelig handel, skal de selv træffe og dokumentere den endelige aftale og aftale betaling, levering, risiko og eventuelle vilkår. Equilo kan ikke afgøre, om brugernes egne frie beskeder eller handlinger efter almindelig aftaleret i en konkret situation alligevel har skabt en aftale mellem dem.</p>
-          <p>Tjenesten er kun beregnet til personer, der handler privat. Du må ikke bruge Equilo som led i erhvervsmæssigt salg. Hvis en sælger reelt handler erhvervsmæssigt, gælder ufravigelige forbrugerregler uanset profilens fremstilling.</p>`,
+          <p>Tackly er en kontakt- og annonceplatform for private brugere. Tackly er ikke en webshop, sælger, køber, forhandler, handelsagent eller formidler af betaling og har ingen egne varer til salg. En vare tilbydes alene af den private bruger, der har oprettet annoncen. Tackly ejer, kontrollerer eller undersøger normalt ikke varen og håndterer ikke betaling, fragt, udlevering, forsikring eller ejerskifte.</p>
+          <p>De strukturerede funktioner i appen—herunder bud, købsanmodninger, accept, afvisning, reservation og markering som solgt—er alene ikke-bindende værktøjer til at skabe kontakt og koordinere. De udløser ikke betaling eller en bindende handel gennem Tackly. En accept ændrer kun annoncens status til reserveret. Både køber og sælger kan springe fra og ophæve reservationen uden betaling eller krav fra Tackly.</p>
+          <p>Hvis parterne ønsker at indgå en endelig handel, skal de selv træffe og dokumentere den endelige aftale og aftale betaling, levering, risiko og eventuelle vilkår. Tackly kan ikke afgøre, om brugernes egne frie beskeder eller handlinger efter almindelig aftaleret i en konkret situation alligevel har skabt en aftale mellem dem.</p>
+          <p>Tjenesten er kun beregnet til personer, der handler privat. Du må ikke bruge Tackly som led i erhvervsmæssigt salg. Hvis en sælger reelt handler erhvervsmæssigt, gælder ufravigelige forbrugerregler uanset profilens fremstilling.</p>`,
       },
       {
         id: 'konto',
         title: '3. Alder, konto og adgang',
         body: `
-          <p>Du skal være fyldt 18 år eller have din forælders eller værges udtrykkelige tilladelse til at bruge Equilo under dennes ansvar, i det omfang loven tillader det. Equilo foretager aktuelt ikke alderskontrol.</p>
+          <p>Du skal være fyldt 18 år eller have din forælders eller værges udtrykkelige tilladelse til at bruge Tackly under dennes ansvar, i det omfang loven tillader det. Tackly foretager aktuelt ikke alderskontrol.</p>
           <p>Du skal give korrekte og aktuelle oplysninger, kun oprette den konto du har brug for, beskytte loginadgangen og straks kontakte os ved mistanke om misbrug. Du må ikke overdrage kontoen eller udgive dig for en anden. Du er ansvarlig for aktivitet, som du med rimelighed kunne have forhindret ved at beskytte kontoen.</p>`,
       },
       {
@@ -164,10 +164,10 @@ const pages = {
         id: 'forbudt',
         title: '5. Forbudt indhold og adfærd',
         body: `
-          <p>Du må ikke bruge Equilo til:</p>
+          <p>Du må ikke bruge Tackly til:</p>
           <ul>
             <li>ulovlige, stjålne, forfalskede, tilbagekaldte eller på anden måde farlige varer,</li>
-            <li>levende dyr, lægemidler, dopingmidler, våben eller varer, som kræver en tilladelse eller et kontrolleret salg, som Equilo ikke understøtter,</li>
+            <li>levende dyr, lægemidler, dopingmidler, våben eller varer, som kræver en tilladelse eller et kontrolleret salg, som Tackly ikke understøtter,</li>
             <li>vildledende annoncer, svindel, kunstig manipulation af anmeldelser, spam eller omgåelse af sikkerhedsfunktioner,</li>
             <li>chikane, trusler, had, seksuel udnyttelse, diskrimination eller krænkelse af privatliv, ophavsret, varemærker eller andre rettigheder,</li>
             <li>deling af CPR-numre, betalingskortdata, adgangskoder eller unødvendige følsomme oplysninger, eller</li>
@@ -177,15 +177,15 @@ const pages = {
       },
       {
         id: 'indhold',
-        title: '6. Dit indhold og Equilos rettigheder',
+        title: '6. Dit indhold og Tacklys rettigheder',
         body: `
-          <p>Du beholder ejerskabet til dit indhold. Du giver Equilo en ikke-eksklusiv, verdensomspændende og vederlagsfri ret til at hoste, kopiere, formatere og vise indholdet i det omfang, det er nødvendigt for at levere, sikre og moderere den funktion, du har valgt. Retten ophører, når indholdet slettes fra aktive systemer, bortset fra nødvendige sikkerhedskopier, lovlig dokumentation og indhold, som fortsat indgår i en anden brugers samtale- eller handelshistorik.</p>
-          <p>Du garanterer, at du har ret til at uploade indholdet. Equilos navn, logo, design, software og redaktionelle indhold tilhører Equilo eller vores licensgivere og må ikke bruges uden tilladelse.</p>`,
+          <p>Du beholder ejerskabet til dit indhold. Du giver Tackly en ikke-eksklusiv, verdensomspændende og vederlagsfri ret til at hoste, kopiere, formatere og vise indholdet i det omfang, det er nødvendigt for at levere, sikre og moderere den funktion, du har valgt. Retten ophører, når indholdet slettes fra aktive systemer, bortset fra nødvendige sikkerhedskopier, lovlig dokumentation og indhold, som fortsat indgår i en anden brugers samtale- eller handelshistorik.</p>
+          <p>Du garanterer, at du har ret til at uploade indholdet. Tacklys navn, logo, design, software og redaktionelle indhold tilhører Tackly eller vores licensgivere og må ikke bruges uden tilladelse.</p>`,
       },
       {
         id: 'sortering',
         title: '7. Søgning og sortering',
-        body: `<p>Aktive annoncer vises som udgangspunkt med de nyeste først. Brugeren kan søge og filtrere efter blandt andet tekst, kategori, produktoplysninger, pris og postområde/radius samt vælge laveste eller højeste pris. Radius beregnes ud fra centrum af valgte danske postområder og er derfor kun vejledende. Equilo tilbyder aktuelt ikke betalt placering eller skjult sponsoreret rangering.</p>`,
+        body: `<p>Aktive annoncer vises som udgangspunkt med de nyeste først. Brugeren kan søge og filtrere efter blandt andet tekst, kategori, produktoplysninger, pris og postområde/radius samt vælge laveste eller højeste pris. Radius beregnes ud fra centrum af valgte danske postområder og er derfor kun vejledende. Tackly tilbyder aktuelt ikke betalt placering eller skjult sponsoreret rangering.</p>`,
       },
       {
         id: 'moderation',
@@ -206,14 +206,14 @@ const pages = {
         id: 'drift',
         title: '9. Drift, ændringer og pris',
         body: `
-          <p>Equilo stilles aktuelt til rådighed uden betaling til Equilo. Hvis vi senere tilbyder betalte funktioner, viser vi pris og særlige vilkår, før du bestiller.</p>
+          <p>Tackly stilles aktuelt til rådighed uden betaling til Tackly. Hvis vi senere tilbyder betalte funktioner, viser vi pris og særlige vilkår, før du bestiller.</p>
           <p>Vi kan vedligeholde, sikkerhedsopdatere, ændre eller afvikle funktioner. Vi bestræber os på rimeligt varsel ved væsentlige forringelser eller ophør, medmindre sikkerhed, lovkrav eller forhold uden for vores kontrol kræver hurtig handling.</p>`,
       },
       {
         id: 'ansvar',
         title: '10. Ansvar',
         body: `
-          <p>Equilo er ansvarlig for driften af selve Equilo-tjenesten efter dansk rets almindelige regler. Equilo er ikke part i brugernes varehandel og påtager sig ikke ansvar for en brugers identitet eller handleevne, varens eksistens, lovlighed, sikkerhed, ægthed, stand eller beskrivelse, eller for betaling, levering, ejerskifte, aftalebrud, tab eller en brugers øvrige adfærd. Vi garanterer ikke, at en annonce er korrekt, at en bruger er den, vedkommende udgiver sig for at være, eller at en handel gennemføres.</p>
+          <p>Tackly er ansvarlig for driften af selve Tackly-tjenesten efter dansk rets almindelige regler. Tackly er ikke part i brugernes varehandel og påtager sig ikke ansvar for en brugers identitet eller handleevne, varens eksistens, lovlighed, sikkerhed, ægthed, stand eller beskrivelse, eller for betaling, levering, ejerskifte, aftalebrud, tab eller en brugers øvrige adfærd. Vi garanterer ikke, at en annonce er korrekt, at en bruger er den, vedkommende udgiver sig for at være, eller at en handel gennemføres.</p>
           <p>Intet i vilkårene begrænser ansvar ved forsæt eller grov uagtsomhed eller rettigheder og ansvar, som ikke lovligt kan fraviges. Brug af råd om sikkerhed, stand eller afstand i appen erstatter ikke din egen undersøgelse.</p>`,
       },
       {
@@ -227,24 +227,24 @@ const pages = {
       {
         id: 'lovvalg',
         title: '12. Lovvalg, tvister og kontakt',
-        body: `<p>Vilkårene er underlagt dansk ret, uden at det fratager en forbruger den beskyttelse, som følger af ufravigelige regler i forbrugerens bopælsland. Tvister om Equilo-tjenesten søges først løst ved kontakt til ${mailLink(contact.supportEmail)} og kan derefter indbringes for de kompetente domstole. Dette begrænser ikke en forbrugers lovbestemte adgang til domstole eller et relevant klageorgan.</p><p>Tvister om selve varen, betalingen eller leveringen skal som udgangspunkt løses mellem køber og sælger.</p>`,
+        body: `<p>Vilkårene er underlagt dansk ret, uden at det fratager en forbruger den beskyttelse, som følger af ufravigelige regler i forbrugerens bopælsland. Tvister om Tackly-tjenesten søges først løst ved kontakt til ${mailLink(contact.supportEmail)} og kan derefter indbringes for de kompetente domstole. Dette begrænser ikke en forbrugers lovbestemte adgang til domstole eller et relevant klageorgan.</p><p>Tvister om selve varen, betalingen eller leveringen skal som udgangspunkt løses mellem køber og sælger.</p>`,
       },
     ],
   },
   deleteAccount: {
     eyebrow: 'Konto og data',
-    title: 'Slet din Equilo-konto',
+    title: 'Slet din Tackly-konto',
     intro: 'Du kan slette kontoen direkte i appen eller sende en anmodning, hvis du ikke længere har adgang.',
     sections: [
       {
         id: 'i-appen',
         title: 'Slet i appen',
-        body: `<ol><li>Åbn Equilo og log ind.</li><li>Gå til <strong>Profil → Indstillinger → Slet konto</strong>.</li><li>Skriv <strong>SLET</strong>, læs konsekvenserne og bekræft.</li></ol><p>Sletningen logger dig ud og kan ikke fortrydes.</p>`,
+        body: `<ol><li>Åbn Tackly og log ind.</li><li>Gå til <strong>Profil → Indstillinger → Slet konto</strong>.</li><li>Skriv <strong>SLET</strong>, læs konsekvenserne og bekræft.</li></ol><p>Sletningen logger dig ud og kan ikke fortrydes.</p>`,
       },
       {
         id: 'uden-app',
         title: 'Slet uden adgang til appen',
-        body: `<p>Send en e-mail fra den adresse, der er knyttet til din Equilo-konto, og skriv tydeligt, at du ønsker kontoen slettet.</p><p><a class="button" href="mailto:${contact.supportEmail}?subject=Anmodning%20om%20sletning%20af%20Equilo-konto&body=Hej%20Equilo%2C%0A%0AJeg%20%C3%B8nsker%20at%20f%C3%A5%20slettet%20min%20Equilo-konto%20og%20tilknyttede%20data.%0A%0AKontoens%20e-mail%3A%20%0A%0AVenlig%20hilsen">Send sletteanmodning</a></p><p>Hvis du ikke kan skrive fra kontoens e-mailadresse, skal du oplyse den registrerede adresse og forklare situationen. Vi beder kun om det, der er nødvendigt for at bekræfte, at kontoen er din.</p>`,
+        body: `<p>Send en e-mail fra den adresse, der er knyttet til din Tackly-konto, og skriv tydeligt, at du ønsker kontoen slettet.</p><p><a class="button" href="mailto:${contact.supportEmail}?subject=Anmodning%20om%20sletning%20af%20Tackly-konto&body=Hej%20Tackly%2C%0A%0AJeg%20%C3%B8nsker%20at%20f%C3%A5%20slettet%20min%20Tackly-konto%20og%20tilknyttede%20data.%0A%0AKontoens%20e-mail%3A%20%0A%0AVenlig%20hilsen">Send sletteanmodning</a></p><p>Hvis du ikke kan skrive fra kontoens e-mailadresse, skal du oplyse den registrerede adresse og forklare situationen. Vi beder kun om det, der er nødvendigt for at bekræfte, at kontoen er din.</p>`,
       },
       {
         id: 'konsekvenser',
@@ -269,9 +269,9 @@ const pageLinks = [
 
 document.querySelector('#app').innerHTML = `
   <header class="site-header">
-    <a class="brand" href="/" aria-label="Til Equilos forside">
+    <a class="brand" href="/" aria-label="Til Tacklys forside">
       <img src="${logoUrl}" alt="" />
-      <span>Equilo</span>
+      <span>Tackly</span>
     </a>
     <a class="back-link" href="/">Til forsiden</a>
   </header>
