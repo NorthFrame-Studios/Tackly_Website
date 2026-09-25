@@ -21,6 +21,10 @@ const operatorDetails = `
 
 const pages = {
   privacy: {
+    // Dated on its own; the terms keep the shared version that the app
+    // records when users accept them.
+    updated: '25. september 2026',
+    version: '2026-09-25',
     eyebrow: 'Jura og privatliv',
     title: 'Privatlivspolitik',
     intro: 'Her kan du se, hvilke personoplysninger Tackly behandler, hvorfor vi gør det, hvem oplysningerne deles med, og hvilke rettigheder du har.',
@@ -44,7 +48,7 @@ const pages = {
             <li><strong>Tekniske oplysninger:</strong> IP-adresse og nødvendige serverlogs hos vores leverandører, enhedsplatform, push-token, sessionsoplysninger samt dato og version for din accept af vilkårene.</li>
           </ul>
           <p>Vi modtager normalt oplysningerne fra dig. Loginoplysninger kan også komme fra Google, hvis du vælger Google-login. Oplysninger om rapporteret indhold kan komme fra en anden bruger.</p>
-          <p>Appen bruger ikke din enheds præcise GPS-position. Afstandsfiltret bruger det postområde, du selv skriver eller vælger. Du vælger også selv, hvilke billeder appen får adgang til og uploader.</p>
+          <p>Appen bruger ikke din enheds præcise GPS-position. Afstandsfiltret bruger det postområde, du selv skriver eller vælger, og vi gemmer postområdets midtpunkt sammen med annoncen, så afstanden kan beregnes. Du vælger også selv, hvilke billeder appen får adgang til, uploader eller tager med kameraet.</p>
           <p>Tackly er ikke beregnet til følsomme personoplysninger. Del ikke helbredsoplysninger, CPR-numre, betalingskortoplysninger eller andre fortrolige oplysninger i profiler, annoncer, support eller beskeder.</p>`,
       },
       {
@@ -79,7 +83,7 @@ const pages = {
             <li><strong>Andre brugere og offentligheden</strong> modtager det profil- og annonceindhold, du vælger at offentliggøre. En samtalepart modtager dine beskeder, bud og handelsoplysninger.</li>
             <li><strong>Supabase</strong> leverer login, database, fillagring og backendfunktioner.</li>
             <li><strong>Vercel</strong> hoster tackly.dk og kan behandle IP-adresse, tidspunkt, den besøgte adresse og nødvendige tekniske logs for at levere og beskytte hjemmesiden.</li>
-            <li><strong>Expo og Google Firebase Cloud Messaging</strong> formidler pushnotifikationer til din enhed. Notifikationstekster er begrænsede, så følsomt beskedindhold ikke vises gennem pushleverandøren.</li>
+            <li><strong>Expo og Google Firebase Cloud Messaging</strong> formidler pushnotifikationer til din enhed. En notifikation om en ny besked viser afsenderens navn, annoncens titel og begyndelsen af beskeden (højst 140 tegn). Du kan til enhver tid slå notifikationer fra i telefonens indstillinger.</li>
             <li><strong>Google</strong> behandler oplysninger, hvis du selv vælger Google-login.</li>
             <li><strong>Dataforsyningen (DAWA)</strong> modtager søgetekst og tekniske forbindelsesoplysninger, når appen slår danske postområder op. Vi sender ikke din konto-id med forespørgslen.</li>
             <li><strong>Rådgivere og myndigheder</strong> kan modtage oplysninger, når det er nødvendigt for et retskrav eller følger af loven.</li>
@@ -280,7 +284,7 @@ document.querySelector('#app').innerHTML = `
       <p class="eyebrow">${page.eyebrow}</p>
       <h1>${page.title}</h1>
       <p class="intro">${page.intro}</p>
-      <p class="updated">Senest opdateret ${updated} · Version ${documentVersion}</p>
+      <p class="updated">Senest opdateret ${page.updated ?? updated} · Version ${page.version ?? documentVersion}</p>
     </div>
     <div class="legal-layout">
       <nav aria-label="Juridiske sider">
